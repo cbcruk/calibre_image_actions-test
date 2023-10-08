@@ -21,4 +21,4 @@ jobs:
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           ignorePaths: 'node_modules/**,build'
-          compressOnly: true
+          compressOnly: false
